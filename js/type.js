@@ -1,9 +1,9 @@
 const typed = new Typed('.typed',{
-    strings: ['Hola','mirada', 'Condicencia'],
+    strings: ['Carpe diem','Desicion','Pensar'],
     stringsElement: '#cadenas-texto', // ID del elemento que contiene cadenas de texto a mostrar.
-	typeSpeed: 75, // Velocidad en mlisegundos para poner una letra,
+	typeSpeed: 100, // Velocidad en mlisegundos para poner una letra,
 	startDelay: 300, // Tiempo de retraso en iniciar la animacion. Aplica tambien cuando termina y vuelve a iniciar,
-	backSpeed: 75, // Velocidad en milisegundos para borrrar una letra,
+	backSpeed: 150, // Velocidad en milisegundos para borrrar una letra,
 	smartBackspace: true, // Eliminar solamente las palabras que sean nuevas en una cadena de texto.
 	shuffle: false, // Alterar el orden en el que escribe las palabras.
 	backDelay: 1500, // Tiempo de espera despues de que termina de escribir una palabra.
@@ -14,11 +14,11 @@ const typed = new Typed('.typed',{
 	contentType: 'html', // 'html' o 'null' para texto sin formato
 });
 const typed2 = new Typed('.typed2',{
-     strings: ['Mirar','Desicion','Carpe diem'],
+     strings: ['Concidencia','Mirada','Rumor'],
      stringsElement: '#cadenas-texto', // ID del elemento que contiene cadenas de texto a mostrar.
-     typeSpeed: 75, // Velocidad en mlisegundos para poner una letra,
+     typeSpeed: 100, // Velocidad en mlisegundos para poner una letra,
      startDelay: 300, // Tiempo de retraso en iniciar la animacion. Aplica tambien cuando termina y vuelve a iniciar,
-     backSpeed: 75, // Velocidad en milisegundos para borrrar una letra,
+     backSpeed: 150, // Velocidad en milisegundos para borrrar una letra,
      smartBackspace: true, // Eliminar solamente las palabras que sean nuevas en una cadena de texto.
      shuffle: false, // Alterar el orden en el que escribe las palabras.
      backDelay: 1500, // Tiempo de espera despues de que termina de escribir una palabra.

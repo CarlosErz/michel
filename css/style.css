@@ -10,6 +10,10 @@
     font-weight: 500;
 
 }
+.text_inicial .name{
+    color: #381177;
+    font-weight: bold;
+}
 
 .text {
     text-align: center;
@@ -23,6 +27,9 @@
 
 .contenedor {
     display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
 
 }
 
@@ -63,29 +70,8 @@ p {
 
 }
 
-.op2 {
-    position: absolute;
-    left: 58%;
-}
-
-.op1 {
-    position: absolute;
-    left: 50px;
-    padding: 0;
-}
-
 @media (max-width: 2000px) {
-    .op2 {
-        position: absolute;
-        left: 71%;
-    }
-
-    .op1 {
-        position: absolute;
-        left: 22%;
-        padding: 0;
-    }
-    .text_inicial h1{
+    .text_inicial h1 {
         height: 40%;
         width: 40%;
         margin: 0 auto;
@@ -93,48 +79,19 @@ p {
 
 }
 
-@media (max-width: 811px) {
-    .op2 {
-        position: absolute;
-        left: 68%;
-    }
-
-    .op1 {
-        position: absolute;
-        left: 19%;
-        padding: 0;
-    }
-
-}
-
 @media (max-width: 637px) {
-    .op2 {
-        position: absolute;
-        left: 64%;
-    }
-
-    .op1 {
-        position: absolute;
-        left: 15%;
-        padding: 0;
-    }
-    .text_inicial h1{
+    .text_inicial h1 {
         height: 100%;
         width: 100%;
         margin: none;
     }
 
 }
-@media (max-width: 453px) {
-    .op2 {
-        position: absolute;
-        left: 62%;
-    }
 
-    .op1 {
-        position: absolute;
-        left: 15%;
-        padding: 0;
-    }
-
+.letras {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    flex-direction: row;
+    justify-content: space-around;
 }
