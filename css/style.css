@@ -1,16 +1,17 @@
-
-.text_inicial{
+.text_inicial {
     position: relative;
     text-align: center;
     top: 30px;
 }
-.text_inicial h1{
-  font-size: 20px;
-  font-family: 'Raleway', sans-serif;
-  font-weight: 500;
+
+.text_inicial h1 {
+    font-size: 20px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
 
 }
-.text{
+
+.text {
     text-align: center;
     margin: 90px 0 40px 0;
     font-size: 20px;
@@ -19,14 +20,16 @@
     color: #381177;
 
 }
-.contenedor{
+
+.contenedor {
     display: flex;
 
 }
-.card{
+
+.card {
     height: 100px;
     width: 100px;
-    box-shadow: 2px 2px 4px 4px rgba(0, 0, 0, 0.073) ;
+    box-shadow: 2px 2px 4px 4px rgba(0, 0, 0, 0.073);
     border-radius: 27px;
     align-items: center;
     margin: 0 auto;
@@ -34,31 +37,104 @@
     text-align: center;
     cursor: pointer;
 }
-.card:hover{
- box-shadow: 2px 2px 4px 4px #38117798 ;
 
-} 
-#icon1{
+.card:hover {
+    box-shadow: 2px 2px 4px 4px #38117798;
+
+}
+
+#icon1 {
     margin: 0 auto;
     position: relative;
     top: 25px;
-    
+
 }
-#icon2{
+
+#icon2 {
     position: relative;
     left: 2px;
     top: 20px;
 }
-p{
+
+p {
     color: #381177;
     font-weight: 700;
+    font-family: 'Raleway', sans-serif;
+
 }
-.op2{
+
+.op2 {
     position: absolute;
     left: 58%;
 }
-.op1{
+
+.op1 {
     position: absolute;
     left: 50px;
     padding: 0;
+}
+
+@media (max-width: 2000px) {
+    .op2 {
+        position: absolute;
+        left: 71%;
+    }
+
+    .op1 {
+        position: absolute;
+        left: 22%;
+        padding: 0;
+    }
+    .text_inicial h1{
+        height: 40%;
+        width: 40%;
+        margin: 0 auto;
+    }
+
+}
+
+@media (max-width: 811px) {
+    .op2 {
+        position: absolute;
+        left: 68%;
+    }
+
+    .op1 {
+        position: absolute;
+        left: 19%;
+        padding: 0;
+    }
+
+}
+
+@media (max-width: 637px) {
+    .op2 {
+        position: absolute;
+        left: 64%;
+    }
+
+    .op1 {
+        position: absolute;
+        left: 15%;
+        padding: 0;
+    }
+    .text_inicial h1{
+        height: 100%;
+        width: 100%;
+        margin: none;
+    }
+
+}
+@media (max-width: 453px) {
+    .op2 {
+        position: absolute;
+        left: 62%;
+    }
+
+    .op1 {
+        position: absolute;
+        left: 15%;
+        padding: 0;
+    }
+
 }
